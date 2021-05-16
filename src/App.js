@@ -43,7 +43,7 @@ function App() {
           {
             pokemonObj.map((pokemon, index) => {
               return (
-                <li key={index}>
+                <li key={index} className={pokemon.types[0].type.name}>
                   {/* <div>{pokemon.name}</div> */}
                   <Pokemon 
                     id={pokemon.id}

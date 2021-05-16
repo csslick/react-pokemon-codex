@@ -44,3 +44,17 @@ ul {
 .pokemon-list img {
   width: 100%;
 }
+
+/* type color */
+.grass {
+  background: rgba(159, 228, 159, 0.5)!important;
+}
+.fire {
+  background: rgba(255, 24, 24, 0.178)!important;
+}
+.water {
+  background: rgba(145, 228, 228, 0.568)!important;
+}
+.ground, .bug {
+  background: rgba(247, 130, 52, 0.363)!important;
+}
