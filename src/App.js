@@ -48,7 +48,7 @@ function App() {
                   <Pokemon 
                     id={pokemon.id}
                     name={pokemon.name}
-                    image={pokemon.sprites.front_default}
+                    image={pokemon.sprites.other.dream_world.front_default}
                     type={pokemon.types[0].type.name}
                     key={pokemon.id}
                   />
