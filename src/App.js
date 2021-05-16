@@ -38,6 +38,7 @@ function App() {
     <div className="app-container">
       <article>
         <h1>포케몬 진화 도감</h1>
+        <button className="load-btn" onClick={getPokemons}>next data</button>
         <ul className="pokemon-list">
           {
             pokemonObj.map((pokemon, index) => {
@@ -56,7 +57,6 @@ function App() {
             })
           }
         </ul>
-        <button className="load-btn" onClick={getPokemons}>next data</button>
       </article>
     </div>
   );
